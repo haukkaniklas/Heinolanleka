@@ -3,9 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Maanrakennus, kaivinkoneurakointi ja piha- ja ympäristötyöt Heinolassa.">
+    <meta name="description" content="Maanrakennus, kaivinkonetyöt, pihatyöt, salaojat, vesi- ja viemärityöt, asfaltoinnit sekä maa-ainesten kuljetukset Heinolassa ja Päijät-Hämeessä.">
     <meta name="theme-color" content="#ffd21a">
-    <title>Palvelut | Heinolan Leka Oy</title>
+    <title>Maanrakennus ja kaivinkonetyöt Heinola | Heinolan Leka Oy</title>
+    <link rel="canonical" href="https://heinolanleka.fi/palvelut.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fi_FI">
+    <meta property="og:site_name" content="Heinolan Leka Oy">
+    <meta property="og:title" content="Maanrakennus ja kaivinkonetyöt Heinola | Heinolan Leka Oy">
+    <meta property="og:description" content="Maanrakennus, kaivinkonetyöt, pihatyöt, salaojat, vesi- ja viemärityöt, asfaltoinnit sekä maa-ainesten kuljetukset Heinolassa ja Päijät-Hämeessä.">
+    <meta property="og:url" content="https://heinolanleka.fi/palvelut.html">
+    <meta property="og:image" content="https://heinolanleka.fi/assets/web/kalusto-1280.webp">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="960">
+    <meta property="og:image:alt" content="Heinolan Leka Oy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Maanrakennus ja kaivinkonetyöt Heinola | Heinolan Leka Oy">
+    <meta name="twitter:description" content="Maanrakennus, kaivinkonetyöt, pihatyöt, salaojat, vesi- ja viemärityöt, asfaltoinnit sekä maa-ainesten kuljetukset Heinolassa ja Päijät-Hämeessä.">
+    <meta name="twitter:image" content="https://heinolanleka.fi/assets/web/kalusto-1280.webp">
     <link rel="stylesheet" href="styles.css">
     <script src="navigation.js" defer></script>
   </head>
@@ -15,7 +30,7 @@
     <header>
       <div class="container navigation">
         <a class="brand" href="index.html" aria-label="Heinolan Leka Oy, etusivu">
-          <img src="assets/Logo.JPG" alt="Heinolan Leka Oy" width="1536" height="1024">
+          <img src="assets/web/logo-360.webp" srcset="assets/web/logo-360.webp 360w, assets/web/logo-720.webp 720w" sizes="(max-width: 700px) 135px, 180px" alt="Heinolan Leka Oy" width="720" height="480">
         </a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="paavalikko" hidden>
           <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
@@ -23,9 +38,21 @@
         </button>
         <nav id="paavalikko" aria-label="Päänavigaatio">
           <a href="index.html">Etusivu</a>
-          <a href="palvelut.html" aria-current="page">Palvelut</a>
+          <details class="services-dropdown">
+            <summary class="is-current">Palvelut</summary>
+            <div class="services-menu">
+              <a href="palvelut.html" aria-current="page">Kaikki palvelut</a>
+              <a href="palvelut.html#maanrakennus">Maanrakennus</a>
+              <a href="palvelut.html#koneurakointi">Kaivinkone&shy;urakointi</a>
+              <a href="palvelut.html#pihatyot">Piha- ja ympäristötyöt</a>
+              <a href="palvelut.html#vesi-ja-viemarityot">Vesi- ja viemärityöt</a>
+              <a href="palvelut.html#asfaltoinnit">Asfaltoinnit</a>
+              <a href="palvelut.html#rakennustyot">Rakennusalan työt, valut ja muuraukset</a>
+              <a href="palvelut.html#maa-ainesten-kuljetukset">Maa-ainesten kuljetukset</a>
+            </div>
+          </details>
           <a href="yhteystiedot.html">Yhteystiedot</a>
-          <a class="button nav-cta" href="yhteystiedot.html">Pyydä tarjous</a>
+          <a class="button nav-cta" href="yhteystiedot.html">Pyydä hinta-arvio</a>
         </nav>
       </div>
     </header>
@@ -35,7 +62,7 @@
         <div class="container">
           <p class="eyebrow">PALVELUT / HEINOLAN LEKA OY</p>
           <h1>Pohjasta asti.<br><span>Valmiiksi saakka.</span></h1>
-          <p>Maanrakennus- ja koneurakointityöt Heinolassa ja lähialueilla. Löydetään sinun kohteeseesi sopiva ratkaisu.</p>
+          <p>Maanrakennuksesta pihatöihin ja kuljetuksiin Heinolassa ja lähialueilla. Myös rakennusalan työt onnistuvat yhteistyökumppaniemme kanssa.</p>
         </div>
       </section>
 
@@ -50,6 +77,7 @@
               <ul>
                 <li>Pohjatyöt</li>
                 <li>Kaivuut ja täytöt</li>
+                <li>Kuoppien täytöt</li>
                 <li>Maan tasaukset</li>
               </ul>
             </div>
@@ -57,7 +85,7 @@
           </article>
           <article class="detail-row" id="koneurakointi">
             <div>
-              <h2>Kaivinkoneurakointi</h2>
+              <h2>Kaivinkone&shy;urakointi</h2>
               <p>Kaivinkonetyöt, ojitukset ja salaojat kohteen tarpeisiin sopivalla kalustolla.</p>
               <p>Toteutamme koneella tehtävät työt kohteen olosuhteiden mukaan. Kerro työn tarpeesta, niin selvitetään sopiva toteutus.</p>
               <a class="text-link" href="yhteystiedot.html">Kysy toteutuksesta</a>
@@ -81,8 +109,37 @@
                 <li>Piha-alueiden tasaukset</li>
               </ul>
             </div>
-            <img class="detail-photo yard-photo" src="assets/de7e1785-3e5e-4574-bfc2-f63564af2128.jpeg" alt="Tasattu piha ja tukimuuri puukaiteineen" width="1500" height="2000" loading="lazy">
+            <img class="detail-photo yard-photo" src="assets/web/pihatyot-1280.webp" srcset="assets/web/pihatyot-640.webp 640w, assets/web/pihatyot-1280.webp 1280w" sizes="(max-width: 700px) calc(100vw - 36px), (max-width: 1000px) calc((100vw - 80px) / 2), (max-width: 1336px) calc((100vw - 160px) / 2), 588px" alt="Tasattu piha ja tukimuuri puukaiteineen" width="1280" height="1707" loading="lazy">
           </article>
+        </div>
+      </section>
+
+      <section class="additional-services">
+        <div class="container">
+          <p class="eyebrow">LISÄÄ PALVELUITAMME</p>
+          <h2>Työt kohteen tarpeisiin.</h2>
+          <div class="additional-service-grid">
+            <article class="additional-service" id="vesi-ja-viemarityot">
+              <h3>Vesi- ja viemärityöt</h3>
+              <p>Vesi- ja viemärityöt sekä salaojat osana toimivaa pihaa ja rakennusta. Sovitaan kohteeseesi sopiva toteutus.</p>
+              <a class="text-link" href="yhteystiedot.html">Kysy toteutuksesta</a>
+            </article>
+            <article class="additional-service" id="asfaltoinnit">
+              <h3>Asfaltoinnit</h3>
+              <p>Asfaltoinnit pihoille ja kulkuväylille. Käydään läpi alueen käyttötarve ja tarvittavat pohjatyöt ennen toteutusta.</p>
+              <a class="text-link" href="yhteystiedot.html">Kysy toteutuksesta</a>
+            </article>
+            <article class="additional-service" id="rakennustyot">
+              <h3>Rakennusalan työt</h3>
+              <p>Myös rakennusalan työt, valut ja muuraukset onnistuvat yhteistyökumppaniemme kanssa. Kerro suunnitelmastasi, niin katsotaan sopiva toteutus yhdessä.</p>
+              <a class="text-link" href="yhteystiedot.html">Kysy toteutuksesta</a>
+            </article>
+            <article class="additional-service" id="maa-ainesten-kuljetukset">
+              <h3>Maa-ainesten kuljetukset</h3>
+              <p>Maa-ainesten kuljetukset kohteen tarpeen mukaan. Hoidamme myös kuoppien täytöt ja muut täyttötyöt.</p>
+              <a class="text-link" href="yhteystiedot.html">Kysy toteutuksesta</a>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -94,7 +151,7 @@
           </div>
           <div>
             <p>Kerro mitä tarvitset ja missä kohde sijaitsee.<br>Suunnitellaan työlle sopiva toteutus.</p>
-            <a class="button dark" href="yhteystiedot.html">Pyydä tarjous</a>
+            <a class="button dark" href="yhteystiedot.html">Pyydä hinta-arvio</a>
           </div>
         </div>
       </section>
@@ -115,8 +172,10 @@
         </div>
         <div>
           <p class="footer-label">OTA YHTEYTTÄ</p>
+          <a href="tel:+3581231234">+358 123 1234</a>
           <a href="mailto:heinolanleka@gmail.com">heinolanleka@gmail.com</a>
-          <p>Heinola ja lähialueet</p>
+          <p>Heinolasta koko Päijät-Hämeeseen.</p>
+          <p>Y-tunnus: 2085186-5</p>
         </div>
       </div>
 
